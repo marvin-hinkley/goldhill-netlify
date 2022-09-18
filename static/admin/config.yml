@@ -3,13 +3,12 @@ backend:
   repo: marvin-hinkley/goldhill-netlify
   branch: main
 
-media_folder: static/assets
 public_folder: /assets
 
 media_library:
   name: uploadcare
   config:
-    publickey: 9a4db2023ea4408d1b48
+    publicKey: 9a4db2023ea4408d1b48
 
 collections:
   - name: blog

@@ -22,7 +22,6 @@ const SEO = ({ seo = {} }) => {
       meta={getMetaTags()}
     >
       <script src="https://kit.fontawesome.com/d4b38b5d52.js" crossorigin="anonymous"></script>
-      <script>UPLOADCARE_PUBLIC_KEY = '9a4db2023ea4408d1b48';</script>
     </Helmet>
   )
 }
