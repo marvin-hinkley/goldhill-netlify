@@ -23,6 +23,13 @@ module.exports = {
     },
     __key: "pages"
   }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "markdown-pages",
+      "path": `${__dirname}/blog`
+    },
+    __key: "pages"
+  }, {
     resolve: `gatsby-plugin-sass`,
     options: {
       postCssPlugins: [
