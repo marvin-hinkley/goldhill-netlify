@@ -7,6 +7,7 @@ const IndexPage = () => {
   return (
     <Layout>
       {/* <HeroComponent hero={component} /> */}
+      <span>THINGY</span>
     </Layout>
   )
 }
