@@ -27,7 +27,8 @@ collections:
     files:
       - label: "Hero"
         name: "hero"
-        file: "src/_data/hero.yml"
+        file: "data/hero.yml"
+        create: true
         fields:
           - label: "Heading"
             name: "heading"
