@@ -6,6 +6,11 @@ backend:
 media_folder: static/assets
 public_folder: /assets
 
+media_library:
+  name: uploadcare
+  config:
+    publickey: 9a4db2023ea4408d1b48
+
 collections:
   - name: blog
     label: Blog
@@ -16,3 +21,21 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: "components"
+    label: "Components"
+    editor:
+      preview: false
+    files:
+      - label: "Hero"
+        name: "hero"
+        file: "_data/hero.yml"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: string
+          - label: "Subheading"
+            name: "subheading"
+            widget: string
+          - label: "Image"
+            name: "image"
+            widget: "image"
