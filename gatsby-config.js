@@ -3,7 +3,7 @@ module.exports = {
     title: `temp`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-netlify-cms", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-netlify-cms", "gatsby-plugin-image", "gatsby-plugin-sitemap", `gatsby-transformer-remark`, {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
