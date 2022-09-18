@@ -27,7 +27,7 @@ collections:
     files:
       - label: "Hero"
         name: "hero"
-        file: "_data/hero.yml"
+        file: "src/_data/hero.yml"
         fields:
           - label: "Heading"
             name: "heading"
