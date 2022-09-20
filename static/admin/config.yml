@@ -20,6 +20,19 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: alerts
+    label: "Alerts"
+    folder: alerts
+    create: true
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "string" }
+      - {
+          name: "severity",
+          label: "Severity",
+          widget: "select",
+          options: ["Information", "Warning", "Danger"],
+        }
   - name: "components"
     label: "Components"
     editor:

@@ -3,7 +3,7 @@ import React from "react"
 const Alert = props => {
   let icon
   let foreColor, backColor
-  switch (props.alert.Severity) {
+  switch (props.alert.severity) {
     case "Information":
       icon = "fa-info-circle"
       backColor = `from-blue-900`
@@ -30,10 +30,10 @@ const Alert = props => {
     >
       <i className={`fas ${icon} text-2xl ${foreColor} mr-10`}></i>
       <div>
-        <h1 className={`${foreColor} text-lg`}>{props.alert.Title}</h1>
+        <h1 className={`${foreColor} text-lg`}>{props.alert.title}</h1>
         <p
           className="text-md"
-          dangerouslySetInnerHTML={{ __html: props.alert.Body }}
+          dangerouslySetInnerHTML={{ __html: props.alert.body }}
         />
       </div>
     </div>
