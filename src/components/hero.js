@@ -5,7 +5,7 @@ const HeroComponent = props => {
     <div
       className="w-full h-72 flex align-middle justify-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url(http://localhost:1337${props.hero.Image.url})`,
+        backgroundImage: `url(http://localhost:1337${props.hero.Image})`,
       }}
     >
       <div className="w-full h-full bg-gray-900 bg-opacity-50 bg-clip-padding flex flex-col align-middle justify-center text-center backdrop-filter backdrop-blur-sm">
