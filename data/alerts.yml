@@ -1,0 +1,4 @@
+alertList:
+  - severity: Danger
+    title: Kaiju invade!
+    body: 3 immense, slimy kaiju spotted approaching Gold Hill
