@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import HeroComponent from "../components/hero"
 import SEO from "../components/seo"
 import heroData from "../../data/hero.yml"
+import Alerts from "../components/alerts"
 
 const IndexPage = () => {
   const { 
@@ -20,6 +21,7 @@ const IndexPage = () => {
         SubHeading: subheading,
         Image: image
       }} />
+      {/* <Alerts alerts={ } /> */}
     </Layout>
   )
 }
