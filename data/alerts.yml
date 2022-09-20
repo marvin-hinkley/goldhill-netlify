@@ -2,3 +2,6 @@ alertList:
   - severity: Danger
     title: Kaiju invade!
     body: 3 immense, slimy kaiju spotted approaching Gold Hill
+  - title: Thanks for all the fish!
+    body: So long!
+    severity: Warning
